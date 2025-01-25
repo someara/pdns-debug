@@ -9,7 +9,6 @@ RUN apt-get update && apt-get -y install \
     net-tools \
     bind9-dnsutils \
     knot-dnsutils \
-    lsof && \
-    apt-get clean
+    lsof
 
 CMD ["sleep", "infinity"]
