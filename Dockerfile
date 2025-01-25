@@ -13,4 +13,5 @@ RUN apt-get update && apt-get -y install \
     lsof && \
     apt-get clean && rm -rf /var/lib/apt/lists/*
 
+ENTRYPOINT []
 CMD ["sleep", "infinity"]
