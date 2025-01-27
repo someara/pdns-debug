@@ -6,6 +6,7 @@ RUN apt-get update && apt-get -y install \
     procps \
     iproute2 \
     tshark \
+    tcpdump \
     netcat \
     net-tools \
     bind9-dnsutils \
